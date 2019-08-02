@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/Add.png</file>
+        <file>img/Alert.png</file>
+        <file>img/bg.jpg</file>
+        <file>img/Bookmark.png</file>
+        <file>img/Books.png</file>
+        <file>img/Calender.png</file>
+        <file>img/Camera.png</file>
+        <file>img/Carton.png</file>
+        <file>img/Cross.png</file>
+        <file>img/darkBg.jpg</file>
+        <file>img/Delete.png</file>
+        <file>img/Globe.png</file>
+        <file>img/Home.png</file>
+        <file>img/ID.png</file>
+        <file>img/Info.png</file>
+        <file>img/Key.png</file>
+        <file>img/Magic-Wand.png</file>
+        <file>img/Mail.png</file>
+        <file>img/Map.png</file>
+        <file>img/Minus.png</file>
+        <file>img/Notepad.png</file>
+        <file>img/Padlock.png</file>
+        <file>img/Pencil-and-Ruler.png</file>
+        <file>img/Pencil.png</file>
+        <file>img/Photos.png</file>
+        <file>img/Pin.png</file>
+        <file>img/Preferences.png</file>
+        <file>img/Printer.png</file>
+        <file>img/Screw-Driver.png</file>
+        <file>img/Search-32.png</file>
+        <file>img/Search.png</file>
+        <file>img/Spanner.png</file>
+        <file>img/Tick.png</file>
+        <file>img/Tools.png</file>
+        <file>img/Trash.png</file>
+        <file>img/User.png</file>
+        <file>img/icn_testprio.ico</file>
+    </qresource>
+</RCC>

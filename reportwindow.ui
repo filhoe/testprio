@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReportWindow</class>
+ <widget class="QDialog" name="ReportWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>546</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Prioritization Report</string>
+  </property>
+  <widget class="QLabel" name="labelPrio">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Prioritization Report:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_FeaturesAvailable">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>481</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>There is a prioritized features list available for the next test sessions!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_PrioFeaList">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>1. CHAT, 2. CALL HISTORY, 3. VIDEO.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Message">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>110</y>
+     <width>470</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Please, start the tests following the order below, based on the number of changes detected:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

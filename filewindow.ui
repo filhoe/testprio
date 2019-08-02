@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FileWindow</class>
+ <widget class="QDialog" name="FileWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>499</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Project files and features</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidgetFiles">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>461</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::DoubleClicked</set>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Código</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nome</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Funcionalidade</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btnCancelar">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>310</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCodigo">
+   <property name="geometry">
+    <rect>
+     <x>76</x>
+     <y>190</y>
+     <width>49</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Código:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditCodigo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>190</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="URL">
+   <property name="geometry">
+    <rect>
+     <x>36</x>
+     <y>250</y>
+     <width>81</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Funcionalidade:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEfetivaAlteracao">
+   <property name="geometry">
+    <rect>
+     <x>211</x>
+     <y>310</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLimpar">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>250</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Limpar campos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnConfirmar">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>310</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Inserir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAlterar">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnNovo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDeletar">
+   <property name="geometry">
+    <rect>
+     <x>179</x>
+     <y>40</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Deletar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>10</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Arquivos do projeto:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelNome">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>31</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditNome">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>220</y>
+     <width>361</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxFunc">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>250</y>
+     <width>191</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Call Control</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Call History</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chat</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Conference</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rules</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Video</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Voice Mail</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Web Collab</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

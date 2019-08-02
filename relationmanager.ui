@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RelationManager</class>
+ <widget class="QDialog" name="RelationManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>182</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>file1.cs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>file2.cs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>file3.cs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>file4.cs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>file5.cs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>file6.cs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>file7.cs</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>14</y>
+     <width>231</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Relationship Manager</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>80</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Call Control</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Conference</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chat</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Video</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Settings</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Web Collaboration</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Presence</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tell-me-when</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QGraphicsView" name="topBoardRelationManager">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>791</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>477</x>
+     <y>140</y>
+     <width>70</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>140</y>
+     <width>70</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>70</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </widget>
+  <zorder>topBoardRelationManager</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>label</zorder>
+  <zorder>comboBox_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>commandLinkButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

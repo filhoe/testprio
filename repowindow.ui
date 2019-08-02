@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RepoWindow</class>
+ <widget class="QDialog" name="RepoWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>499</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Code Repositories</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>461</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::DoubleClicked</set>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Código</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Produto</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>URL</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tipo</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btnCancelar">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>310</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCodigo">
+   <property name="geometry">
+    <rect>
+     <x>76</x>
+     <y>190</y>
+     <width>49</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Código:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditCodigo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>190</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="URL">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>250</y>
+     <width>31</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>URL:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditURL">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>250</y>
+     <width>361</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEfetivaAlteracao">
+   <property name="geometry">
+    <rect>
+     <x>211</x>
+     <y>310</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnLimpar">
+   <property name="geometry">
+    <rect>
+     <x>401</x>
+     <y>272</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Limpar campos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnConfirmar">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>310</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Inserir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAlterar">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnNovo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDeletar">
+   <property name="geometry">
+    <rect>
+     <x>179</x>
+     <y>40</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Deletar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>10</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Repositórios de Versionamento:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelNome">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>31</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nome:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditNome">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>220</y>
+     <width>251</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxVersionControl">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>220</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Git</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Svn</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

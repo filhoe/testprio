@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>db/testprio.db</file>
+    </qresource>
+</RCC>
